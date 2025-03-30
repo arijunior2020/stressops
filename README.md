@@ -37,7 +37,7 @@ E retorna um JSON com o nível de estresse:
 O nível de estresse é calculado com base na seguinte fórmula:
 
 ```javascript
-const nivelEstresse = deploys * 0.5 + erros * 2 + tempoResposta / 60;
+const score = deploys * 2 + erros * 5 + tempoResposta / 60;
 ```
 
 O resultado é classificado em níveis de estresse:
