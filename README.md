@@ -75,9 +75,7 @@ graph TD;
 
 ---
 
-### Diagrama de arquitetura
-
-imagem do diagrama de arquitetura
+### imagem do diagrama de arquitetura
 
 ![Diagrama da Arquitetura](./img/diagrama-stressops.png)
 
