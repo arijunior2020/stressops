@@ -251,6 +251,16 @@ docker push stressops.azurecr.io/stressops-web:1.0.0
 
 ---
 
+## Liberação CORS
+
+Para permitir que o frontend acesse a Function App, é necessário configurar o CORS (Cross-Origin Resource Sharing):
+
+- Vá até a Function App no portal do Azure
+- Clique em **CORS**
+- Adicione o domínio do Web App (ex: `https://seuapp.azurewebsites.net`) e clique em **Salvar**
+- Adicione também `http://localhost:5173` para testes locais
+- Clique em **Salvar** novamente
+
 ## ✅ Funcionalidades prontas
 
 - [x] Azure Function App com duas funções
