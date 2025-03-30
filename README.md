@@ -75,9 +75,9 @@ graph TD;
 
 ---
 
-### imagem do diagrama de arquitetura
+### Diagrama Simples
 
-![Diagrama da Arquitetura](./img/diagrama-stressops.png)
+<img src="./img/diagrama-stressops.png" alt="Diagrama da Arquitetura" width="300"/>
 
 ## 🧠 Funcionalidade
 
@@ -135,6 +135,45 @@ stressops-web/
 ├── tsconfig.json          # Configuração do TypeScript
 ├── vite.config.ts         # Configuração do Vite
 └── README.md              # Documentação do projeto
+```
+
+### Dockerfile do frontend
+
+```dockerfile
+# Etapa 1: build da aplicação
+FROM node:18-alpine AS builder
+WORKDIR /app
+
+COPY package*.json ./
+RUN npm install
+
+COPY . .
+RUN npm run build
+
+# Etapa 2: servidor Nginx para servir os arquivos
+FROM nginx:alpine
+COPY --from=builder /app/dist /usr/share/nginx/html
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
+```
+
+### Nginx.conf
+
+```nginx
+server {
+  listen 80;
+  server_name localhost;
+
+  location / {
+    root   /usr/share/nginx/html;
+    index  index.html index.htm;
+    try_files $uri /index.html;
+  }
+
+  error_page 404 /index.html;
+}
 ```
 
 ## ⚙️ Passo a passo para replicar
