@@ -204,7 +204,10 @@ server {
 ```bash
 npm install
 npm run build
-func azure functionapp publish stressops-fn --script-root . --force
+```
+
+```bash
+func azure functionapp publish stressops-fn --typescript --script-root . --force
 ```
 
 > 📌 Garanta que os arquivos `.js` da `dist/` ou do root estejam corretamente organizados e com `function.json` se estiver usando o modelo antigo.
