@@ -28,9 +28,9 @@ E retorna um JSON com o nível de estresse:
 
 ```json
 {
-  "nivelEstresse": "Moderado",
-  "emoji": "😐",
-  "mensagem": "A equipe está lidando com uma carga moderada de trabalho."
+  "nivelEstresse": "Zen",
+  "emoji": "🧘‍♂️🌿",
+  "mensagem": "Você é uma lenda da estabilidade."
 }
 ```
 
@@ -73,20 +73,9 @@ graph TD;
     F[Azure Container Registry] -->|PUSH| E
 ```
 
-````
-```mermaid
-graph TD;
-    A[Azure Function App] -->|POST| B[StressCalculator]
-    A -->|GET| C[StressList]
-    B --> D[Azure Cosmos DB]
-    C --> D
-    E[Web App for Containers] -->|GET| C
-    F[Azure Container Registry] -->|PUSH| E
-````
-
 ---
 
-### Diagrama
+### Diagrama de arquitetura
 
 imagem do diagrama de arquitetura
 
