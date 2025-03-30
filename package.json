@@ -1,0 +1,13 @@
+{
+  "name": "stressops-function-legacy",
+  "version": "1.0.0",
+  "description": "StressOps Azure Function (Legacy Format)",
+  "main": "index.js",
+  "scripts": {
+    "start": "func start"
+  },
+  "dependencies": {
+    "@azure/cosmos": "^4.3.0",
+    "uuid": "^9.0.0"
+  }
+}
