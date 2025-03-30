@@ -77,7 +77,7 @@ graph TD;
 
 ### Diagrama Simples
 
-<img src="./img/diagrama-stressops.png" alt="Diagrama da Arquitetura" width="300"/>
+<img src="./img/diagrama-stressops.png" alt="Diagrama da Arquitetura" width="500" style="display: block; margin: auto;" />
 
 ## 🧠 Funcionalidade
 
