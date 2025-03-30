@@ -261,6 +261,15 @@ Para permitir que o frontend acesse a Function App, é necessário configurar o 
 - Adicione também `http://localhost:5173` para testes locais
 - Clique em **Salvar** novamente
 
+## Após Web App publicado
+
+- Acesse o URL do Web App (ex: `https://seuapp.azurewebsites.net`)
+- O frontend deve carregar e fazer chamadas para a Function App
+- Teste o formulário de envio de dados e verifique se os registros estão sendo salvos no CosmosDB
+- Acesse a URL da Function App (GET) (ex: `https://seufunctionapp.azurewebsites.net/api/StressList`) para ver os registros salvos
+- Acesse a URL da Function App (POST) (ex: `https://seufunctionapp.azurewebsites.net/api/StressCalculator`) para calcular o nível de estresse
+- Verifique se o nível de estresse está sendo calculado corretamente com base nos dados enviados
+
 ## ✅ Funcionalidades prontas
 
 - [x] Azure Function App com duas funções
