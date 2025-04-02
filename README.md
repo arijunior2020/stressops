@@ -75,6 +75,12 @@ graph TD;
 
 ---
 
+## Link do Repositório
+
+URL: [https://github.com/arijunior2020/stressops](https://github.com/arijunior2020/stressops)
+
+---
+
 <h3 align="center">Diagrama Simples</h3>
 
 <div align="center">
