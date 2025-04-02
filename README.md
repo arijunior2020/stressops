@@ -292,13 +292,13 @@ Para permitir que o frontend acesse a Function App, é necessário configurar o 
 - URL da Function App (GET): [https://stressops-fn.azurewebsites.net/api/StressList](https://stressops-fn.azurewebsites.net/api/StressList)
 
 <div align="center">
-  <img src="../img/print1.png" alt="Aplicação Stressops" width="400" />
-  <img src="../img/print2.png" alt="Aplicação POST - Calcular" width="400" />
-  <img src="../img/print3.png" alt="Aplicação GET - Listar" width="400" />
-  <img src="../img/print4.png" alt="Resource Group" width="400" />
-  <img src="../img/print5.png" alt="Azure CosmosDB" width="400" />
-  <img src="../img/print6.png" alt="Azure Function App" width="400" />
-  <img src="../img/print7.png" alt="Web App" width="400" />
+  <img src="/img/print1.png" alt="Aplicação Stressops" width="400" />
+  <img src="/img/print2.png" alt="Aplicação POST - Calcular" width="400" />
+  <img src="/img/print3.png" alt="Aplicação GET - Listar" width="400" />
+  <img src="/img/print4.png" alt="Resource Group" width="400" />
+  <img src="/img/print5.png" alt="Azure CosmosDB" width="400" />
+  <img src="/img/print6.png" alt="Azure Function App" width="400" />
+  <img src="/img/print7.png" alt="Web App" width="400" />
 <div>
 ---
 ## 👨‍💻 Desenvolvido pela Equipe
