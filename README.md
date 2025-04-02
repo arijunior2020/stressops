@@ -283,10 +283,28 @@ Para permitir que o frontend acesse a Function App, é necessário configurar o 
 
 ---
 
+## Prints do Projeto em Execução
+
+- URL do Web App: [https://stressops-webapp-g0bnaeeague5aad0.westus3-01.azurewebsites.net/](https://stressops-webapp-g0bnaeeague5aad0.westus3-01.azurewebsites.net/)
+
+- URL da Function App: [https://stressops-fn.azurewebsites.net/api/StressCalculator](https://stressops-fn.azurewebsites.net/api/StressCalculator)
+
+- URL da Function App (GET): [https://stressops-fn.azurewebsites.net/api/StressList](https://stressops-fn.azurewebsites.net/api/StressList)
+
+<div align="center">
+  <img src="../img/print1.png" alt="Aplicação Stressops" width="400" />
+  <img src="../img/print2.png" alt="Aplicação POST - Calcular" width="400" />
+  <img src="../img/print3.png" alt="Aplicação GET - Listar" width="400" />
+  <img src="../img/print4.png" alt="Resource Group" width="400" />
+  <img src="../img/print5.png" alt="Azure CosmosDB" width="400" />
+  <img src="../img/print6.png" alt="Azure Function App" width="400" />
+  <img src="../img/print7.png" alt="Web App" width="400" />
+<div>
+---
 ## 👨‍💻 Desenvolvido pela Equipe
 
 - **José Arimatéia Rodrigues Júnior - Matrícula 2417061**
-- **Karime Oliveira - Matrícula 2417062**
-- **Bruno Rodrigues - Matrícula 2417063**
-- **Pedro Henrique - Matrícula 2417064**
-- **Anderson Silva - Matrícula 2417065**
+- **Karime Linhares - Matrícula 2416877**
+- **Bruno Negreiros - Matrícula 2419432**
+- **Pedro Henrique - Matrícula 2325859**
+- **Anderson Karl - Matrícula 2417571**
