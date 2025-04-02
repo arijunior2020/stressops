@@ -299,8 +299,10 @@ Para permitir que o frontend acesse a Function App, é necessário configurar o 
   <img src="/img/print5.png" alt="Azure CosmosDB" width="400" />
   <img src="/img/print6.png" alt="Azure Function App" width="400" />
   <img src="/img/print7.png" alt="Web App" width="400" />
-<div>
+</div>
+
 ---
+
 ## 👨‍💻 Desenvolvido pela Equipe
 
 - **José Arimatéia Rodrigues Júnior - Matrícula 2417061**
